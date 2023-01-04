@@ -1,9 +1,11 @@
 package src;
 
+
 import src.br.com.dio.desafio.dominio.Curso;
 import src.br.com.dio.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +24,8 @@ public class Main {
         mentoria.setTitulo("Mentoria Java");
         mentoria.setDescricao("Top");
         mentoria.setData(LocalDate.now());
+
+
 
         System.out.println(curso1);
         System.out.println(curso2);
